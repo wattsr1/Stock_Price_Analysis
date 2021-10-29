@@ -19,7 +19,8 @@ ___
 
 To start we developed functional code that allowed for the collection of the total annual stock volume and the year over year performance of each stock we were looking to analyze.  As seen in the code we provided below the data was collected for each stock by completing an itteration of the dataset and inserting the data into the Excel worksheet before moving to the next stock.  
 
-![Image of inital vba code](Resources/Screen Shot 2021-10-29 at 1.08.44 PM.png)
+![Initial Code](Resources/Screen Shot 2021-10-29 at 1.08.44 PM.png)
+<img src="Resources/Screen Shot 2021-10-29 at 1.08.44 PM.png" width="600" height="600">
 
 ### Execution time
 
@@ -27,21 +28,29 @@ Imbedded into the code was a timer that would display the time it took for the p
 
 ![Initial time for 2017 dataset](Resources/Screen Shot 2021-10-25 at 2.43.28 PM.png)
 
+<img src="Resources/Screen Shot 2021-10-25 at 2.43.28 PM.png" width="700" height="350">
+     
 ![Initial time for 2018 dataset](Resources/Screen Shot 2021-10-25 at 2.42.45 PM.png)
+
+<img src="(Resources/Screen Shot 2021-10-25 at 2.42.45 PM.png" width="700" height="350">
 
 ### Refactored Code
 
 Through refactoring of the original working code, a more efficient use of computing can be accomplished by reducting the number of total itterations of the data set which results an increase in the speed of the execution of the task.  To refactor this code, two components were need to be added to the macro being developed.  The first was an index for each ticker that would be itterated for each line of data in the datasets being analyzed.  This ment for each line of of data within the dataset the program would identify which ticker was present and store the relevent data related to the index value.  The second was a collection of data arrays to store the multiple data points for each stock ticker.  As each value saved in the array could be retrieved based on the order that they were collected it was possible to link this data back to the ticker index used.  Using these two tools allowed the refactoring of the code as seen in the sample below.
 
 ![Image of refactored Code](Resources/Screen Shot 2021-10-29 at 1.11.57 PM.png)
-
+<img src="Resources/Screen Shot 2021-10-29 at 1.11.57 PM.png" width="600" height="600">
 ### Execution time
 
 Using the same code used to determine the execution time of the initial code it was possible to see if there was any improvement in the execution time observed in the refactored code for the analysis.  As seen in the images below the time it took to complete the analysis of the data from 2017 and 2018 was competed using the new code and this was used to compare against the initial code used.  
 
 ![Refactored time for 2017 dataset](Resources/Screen Shot 2021-10-25 at 2.42.06 PM.png)
 
+<img src="Resources/Screen Shot 2021-10-25 at 2.42.06 PM.png" width="700" height="350">
+
 ![Refactored time for 2018 dataset](Resources/Screen Shot 2021-10-25 at 2.44.18 PM.png)
+
+<img src="Resources/Screen Shot 2021-10-25 at 2.44.18 PM.png" width="700" height="350">
 
 From the information collected based on the time to complete the execution of the inital and refactored code there was an reduction of ???? sec for the 2017 dataset and ??? sec for the 2018 dataset.  
 
