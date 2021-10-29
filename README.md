@@ -25,7 +25,7 @@ To start we developed functional code that allowed for the collection of the tot
 
 Imbedded into the code was a timer that would display the time it took for the program to run and show the results.  Using this we can compare the time required to complete the inital code to gather the data for the datasets for each year.  This provided us a execution time for the code for each year as seen in the images below
 
-![Initial time for 2017 dataset](
+![Initial time for 2017 dataset](Resources/Screen Shot 2021-10-25 at 2.43.28 PM.png)
 
 ![Initial time for 2018 dataset](Resources/Screen Shot 2021-10-25 at 2.42.45 PM.png)
 
