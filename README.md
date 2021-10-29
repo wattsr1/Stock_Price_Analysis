@@ -39,7 +39,7 @@ Through refactoring of the original working code, a more efficient use of comput
 
 Using the same code used to determine the execution time of the initial code it was possible to see if there was any improvement in the execution time observed in the refactored code for the analysis.  As seen in the images below the time it took to complete the analysis of the data from 2017 and 2018 was competed using the new code and this was used to compare against the initial code used.  
 
-![Refactored time for 2017 dataset](
+![Refactored time for 2017 dataset](Resources/Screen Shot 2021-10-25 at 2.42.06 PM.png)
 
 ![Refactored time for 2018 dataset](
 
