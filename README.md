@@ -19,7 +19,7 @@ ___
 
 To start we developed functional code that allowed for the collection of the total annual stock volume and the year over year performance of each stock we were looking to analyze.  As seen in the code we provided below the data was collected for each stock by completing an itteration of the dataset and inserting the data into the Excel worksheet before moving to the next stock.  
 
-![Image of inital vba code](
+![Image of inital vba code](Resources/Screen Shot 2021-10-29 at 1.08.44 PM.png)
 
 ### Execution time
 
