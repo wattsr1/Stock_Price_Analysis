@@ -27,7 +27,7 @@ Imbedded into the code was a timer that would display the time it took for the p
 
 ![Initial time for 2017 dataset](
 
-![Initial time for 2018 dataset](
+![Initial time for 2018 dataset](Resources/Screen Shot 2021-10-25 at 2.42.45 PM.png)
 
 ### Refactored Code
 
