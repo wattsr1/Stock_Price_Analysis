@@ -41,7 +41,7 @@ Using the same code used to determine the execution time of the initial code it 
 
 ![Refactored time for 2017 dataset](Resources/Screen Shot 2021-10-25 at 2.42.06 PM.png)
 
-![Refactored time for 2018 dataset](
+![Refactored time for 2018 dataset](Resources/Screen Shot 2021-10-25 at 2.44.18 PM.png)
 
 From the information collected based on the time to complete the execution of the inital and refactored code there was an reduction of ???? sec for the 2017 dataset and ??? sec for the 2018 dataset.  
 
