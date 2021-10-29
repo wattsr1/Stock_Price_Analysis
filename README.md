@@ -33,7 +33,7 @@ Imbedded into the code was a timer that would display the time it took for the p
 
 Through refactoring of the original working code, a more efficient use of computing can be accomplished by reducting the number of total itterations of the data set which results an increase in the speed of the execution of the task.  To refactor this code, two components were need to be added to the macro being developed.  The first was an index for each ticker that would be itterated for each line of data in the datasets being analyzed.  This ment for each line of of data within the dataset the program would identify which ticker was present and store the relevent data related to the index value.  The second was a collection of data arrays to store the multiple data points for each stock ticker.  As each value saved in the array could be retrieved based on the order that they were collected it was possible to link this data back to the ticker index used.  Using these two tools allowed the refactoring of the code as seen in the sample below.
 
-![Image of refactored Code]()
+![Image of refactored Code](Resources/Screen Shot 2021-10-29 at 1.11.57 PM.png)
 
 ### Execution time
 
